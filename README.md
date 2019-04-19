@@ -10,3 +10,4 @@ The "Full_Project.rar" file contains the code to connect with the bluetooth modu
 (Inside each rar file) "Activities.rar" file contains all the activities for the android project, the "res.rar" file contains all the images and layouts for the android project.There is the Manifest.xml file too.
 <br /><br/>
 This project started on November 10th 2018 and finished on December 3rd 2018.
+Made by Rafael Leon Estrada (SQLite database code, layouts, activities and Hardware) and Miguel Angel Luis Espinoza (Hardware, code for Arduino and code for Android App to connect with module HC-05).
