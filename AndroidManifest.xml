@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.usuario.proyectofinal">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icono"
+        android:label="Servidor de bebidas"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegistrarActivity"
+            android:label="@string/title_activity_registrar" />
+        <activity
+            android:name=".ProcesoActivity"
+            android:label="@string/title_activity_proceso" />
+        <activity android:name=".ConsultaUsuario" />
+        <activity android:name=".Administrador" />
+        <activity android:name=".Productos" />
+        <activity android:name=".AdministrarUsuarios" />
+        <activity android:name=".AgregarAdministradores" />
+        <activity android:name=".Consultar_Compras" />
+        <activity android:name=".informe"></activity>
+    </application>
+
+</manifest>

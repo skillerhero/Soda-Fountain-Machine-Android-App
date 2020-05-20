@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Administrador">
+
+
+    <LinearLayout
+        android:id="@+id/LayoutDerecha"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/LayoutIzquierda"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Administrar_Usuarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Administrar\nUsuarios"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/Administrar_Productos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Administrar\nProductos"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/RegistrarButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:text="\nRegistrar\n"
+            android:textAlignment="center" />
+
+
+        <Button
+            android:id="@+id/Menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="\nMenu\n"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutIzquierda"
+        android:layout_width="360px"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/AgregarAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Agregar\nAdministradores"
+            android:textAlignment="center" />
+
+
+        <Button
+            android:id="@+id/Consultar_Compras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Consultar\nCompras"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/Informe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:text="Informe\nde\ncambios"
+            android:textAlignment="center"
+            tools:text="Informe\nde\ncambios" />
+
+        <Button
+            android:id="@+id/EliminarTablas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:lineSpacingExtra="17sp"
+            android:text="Eliminar\nTablas"
+            android:textAlignment="center"
+            tools:text="Eliminar\nTablas" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
