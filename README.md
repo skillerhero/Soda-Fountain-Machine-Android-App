@@ -5,7 +5,7 @@ Hardware only : https://www.youtube.com/watch?v=DBnkQEXR4pQ <br />
 Software only (not explained) : https://www.youtube.com/watch?v=LXLzt-yf-ro <br />
 Software and Hardware explained in Spanish (I Edited it with my cellphone): https://www.youtube.com/watch?v=UGGGN9v5IvI<br /><br />
 The "Software-Only.rar" file has the files to test the Android app only. <br/>
-The "Full_Project.rar" file contains the code to connect with the bluetooth module HC-05, so you can't test this files without connecting to the bluetooth module. <br/>
+The "Full_Project.rar" file contains the code to connect with the bluetooth module HC-05, so you can't test these files without connecting to the bluetooth module. <br/>
 
 (Inside each rar file) "Activities.rar" file contains all the activities for the android project, the "res.rar" file contains all the images and layouts for the android project.There is the Manifest.xml file too.
 <br /><br/>
